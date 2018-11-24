@@ -1,10 +1,12 @@
 {
-  "name": "skeske-folio",
+  "name": "topobanana",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://sk3ske.github.io/topobanana",
   "main": "bundle.js",
   "dependencies": {
     "ajv": "^6.0.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-gist": "^1.2.0",
@@ -20,6 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }

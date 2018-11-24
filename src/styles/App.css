@@ -1,0 +1,13 @@
+.App {
+  background-color: #fff;
+  padding: 50px;
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}

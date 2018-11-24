@@ -1,0 +1,484 @@
+body {
+  padding: 0px;
+  margin: 0;
+  font-size:14px;
+  font-family: "Fauna One", Helvetica, Sans-Serif;
+  height:100%;
+}
+a:link {
+    color: #000;
+    font-weight: 900;
+}
+a:visited {
+    color: #000;
+}
+a:hover {
+    font-style: italic;
+    color: #111;
+}
+a:active {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.active, .active:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.spa_background {
+  	background-size: 25px 25px;
+    background-image: radial-gradient(circle, #000000 1px,  rgba(0,0,0,0) 1px);
+}
+
+.splashTitle {
+  margin-top:7vw;
+  margin-left:3vw;
+  padding: 0px;
+  font-size:4vw;
+  line-height:1.0;
+  z-index:3;
+  font-family: 'Permanent Marker', serif;
+  -webkit-transition: ;
+  transition: ;
+}
+
+.splash a {
+  padding: 0px;
+  font-size:4vw;
+  animation-name: fadeToLink;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.right.item {
+  margin-right:0%;
+}
+
+.ui[class*="top attached"].menu {
+  border-radius:0;
+}
+.ui.attached.menu:not(.tabular) {
+  border:0;
+}
+
+.ui.attached.menu {
+  margin:0;
+}
+
+.ui.header.markerHeader {
+  font-family: 'Permanent Marker', cursive;
+  font-size:36px;
+  margin-left:10px;
+  padding-top:30px;
+}
+
+h3.ui.header{
+  margin-left:10px;
+}
+
+@-webkit-keyframes fadeToLink {
+      0% { color: black;
+           text-decoration: none; }
+      70% { color: black;
+           text-decoration: none; }
+      100% { color: blue;
+             text-decoration:underline; }
+    }
+
+ul {
+	padding-top: 3px;
+  padding-left:5px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 12px;
+  padding:3px;
+}
+
+div.content {
+  background-color: #FFF;
+  padding: 20px;
+  height: 100%;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin-bottom: 15px;
+}
+
+.ui.basic.black.label {
+	border: 0px;
+}
+
+.flexcontainer {
+  margin-top:50px;
+	display: -webkit-flex;
+	display: flex;
+	 -webkit-flex-direction:row;
+    flex-direction:row;
+}
+
+.scrollableWrapper {
+  text-align: center;
+}
+
+.scrollable {
+  display: inline-block;
+  width: 700px;
+  overflow-y: auto;
+  }
+
+  #style-8::-webkit-scrollbar-track
+  {
+  	border: 1px solid black;
+  	background-color: #FFFFFF;
+  }
+
+  #style-8::-webkit-scrollbar
+  {
+  	width: 10px;
+  	background-color: #FFFFFF;
+  }
+
+  #style-8::-webkit-scrollbar-thumb
+  {
+  	background-color: #000000;
+  }
+
+.thumbnailContainer{
+  margin-top:30px;
+  text-align:center;
+}
+
+.longThumbnail {
+  width:650px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.photoflex {
+	display: -webkit-flex;
+	display: flex;
+	 -webkit-flex-direction:row;
+    flex-direction:row;
+}
+
+.contactContainer {
+    background-color:#fff;
+    color:rgba(0, 0, 0, 0.9);
+}
+
+.contactContainer a{
+  color:rgba(0, 0, 0, 0.9);
+}
+
+.right {
+  flex-grow: 1;
+  margin-right:25%;
+}
+
+.footer {
+  text-align:center;
+	font-size:10px;
+  padding:10px;
+	letter-spacing:1px;
+  color:rgba(0, 0, 0, 0.9);
+}
+
+.footer a {
+  color:rgba(0, 0, 0, 0.9);
+}
+
+.singlePage_topSpacer {
+  height:300px;
+  margin-top: 6vw;
+}
+
+.singlePage_top {
+  background-image: url("../SPA_title.png");
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: 5px;
+}
+
+.singlePage_middle {
+  background-image: url("../SPA_middle.png");
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 0px;
+}
+
+.singlePage_bottomSpacer {
+  height:120px;
+  margin-top: 0px;
+}
+
+.singlePage_bottom {
+  background-image: url("../SPA_bottom.png");
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  padding-bottom:4vw;
+}
+
+div.active.title{
+  text-decoration:none;
+  font-weight:bold;
+}
+
+div.content.active{
+  text-decoration:none;
+  font-style:normal;
+}
+
+div.content {
+  padding:0;
+  height:100%;
+}
+
+div.fadeOverlay {
+  position:absolute; /* absolute position (so we can position it where we want)*/
+  bottom:0px; /* position will be on bottom */
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:white;
+  color:black;
+  opacity:0.8;
+}
+
+div.imageOverlay {
+  position:absolute; /* absolute position (so we can position it where we want)*/
+  bottom:0px; /* position will be on bottom */
+  left:0px;
+  width:100%;
+  height:100%;
+  color:white;
+}
+
+p.imageOverlay {
+  font-style: normal;
+  position: absolute;
+  bottom: 15%;
+  right: 2%;
+  line-height:0;
+  text-align:right;
+  font-size: 1.7vw;
+}
+
+p.imageOverlay a{
+  color:white;
+}
+
+.laikaLogo {
+  width: 40px;
+  padding-bottom:11px;
+}
+
+.spacer {
+  height:8vw;
+}
+
+.bottomSpacer {
+  height:10vw;
+}
+
+.ui.medium.image {
+  width:400px;
+  margin:16px;
+}
+
+p.thumbNoSubtitle {
+  font-style: normal;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin:30px;
+  text-align:right;
+  font-size: 16px;
+}
+
+p.thumbTitle {
+  font-style: normal;
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+  margin:30px;
+  text-align:right;
+  font-size: 18px;
+}
+
+p.thumbSubtitle {
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin:30px;
+  text-align:right;
+  font-size: 12px;
+}
+
+
+.boxCopy {
+  padding:30px;
+  font-size:18px;
+}
+
+.boxCopy p {
+  line-height:175%;
+}
+
+.gallery p {
+  padding-top:12px;
+  padding-left:14.5%;
+  font-size:12px;
+}
+
+.gallery {
+  padding-top:112px;
+}
+
+.image-gallery-slides {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.image-gallery-image img {
+ max-height: 500px;
+ max-width: 500px;
+ display: block;
+ margin: 0 auto;
+}
+
+button.image-gallery-right-nav::before {
+  color: #000;
+  text-shadow: none;
+}
+
+button.image-gallery-left-nav::before {
+  color: #000;
+  text-shadow: none;
+}
+
+button.image-gallery-fullscreen-button::before {
+  color: #000;
+  text-shadow: none;
+}
+
+button.image-gallery-fullscreen-button:hover::before,
+button.image-gallery-play-button:hover::before,
+button.image-gallery-left-nav:hover::before,
+button.image-gallery-right-nav:hover::before { color:#999 }
+
+
+@media only screen and (max-width: 700px) {
+
+  .singlePage_topSpacer {
+    height:50vw;
+    margin-top: 1vw;
+  }
+
+  .ui.horizontal.divider {
+    padding-top:0.5vw;
+    font-size:16px;
+  }
+
+  .boxCopy {
+    padding:20px;
+    font-size:14px;
+  }
+
+  .ui.container {
+    margin-left:0px !important;
+    margin-right:0px !important;
+  }
+
+  p.imageOverlay {
+    font-style: normal;
+    position: absolute;
+    bottom: 15%;
+    right: 2%;
+    line-height:0;
+    text-align:right;
+    font-size: 2.8vw;
+  }
+
+  .ui.header.markerHeader {
+    font-size:18px;
+    margin-left:10px;
+    padding-top:20px;
+  }
+
+  .ui.medium.image {
+    width:200px;
+    margin:15px;
+  }
+
+  .splashTitle {
+    margin-top: 1vw;
+    margin-left:3vw;
+    padding: 0px;
+    font-size:10vw;
+    line-height:1.0;
+    font-family: 'Permanent Marker', serif;
+    -webkit-transition: ;
+    transition: ;
+  }
+
+  .splash a {
+    padding: 0px;
+    font-size:10vw;
+    animation-name: fadeToLink;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+
+  .thumbnailContainer {
+    margin-top: 5px;
+    text-align: center;
+}
+
+p.thumbNoSubtitle {
+  font-style: normal;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin:30px;
+  text-align:right;
+  font-size: 12px;
+}
+
+p.thumbTitle {
+  font-style: normal;
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+  margin:30px;
+  text-align:right;
+  font-size: 14px;
+}
+
+p.thumbSubtitle {
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin:30px;
+  text-align:right;
+  font-size: 8px;
+}
+ .footerText {
+   font-size:13px;
+ }
+
+}

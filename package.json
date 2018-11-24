@@ -2,7 +2,7 @@
   "name": "topobanana",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sk3ske.github.io/topobanana",
+  "homepage": "https://www.topobanana.com",
   "main": "bundle.js",
   "dependencies": {
     "ajv": "^6.0.0",

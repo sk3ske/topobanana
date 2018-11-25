@@ -16,11 +16,11 @@ class SinglePage extends Component {
               <Container>
                   <div className='thumbnailContainer'>
                     <Thumbnail
-                      image='thumb_burritoes.png'
+                      image='burritoes.png'
                       title= 'burritoes'
                       link= 'burritoes'/>
                       <Thumbnail
-                        image='thumb_inbox.png'
+                        image='inbox.png'
                         title= 'inbox'
                         link= 'inbox'/>
                     <Thumbnail
@@ -28,11 +28,11 @@ class SinglePage extends Component {
                        title= 'moonshine'
                        link= 'moonshine'/>
                      <Thumbnail
-                       image='thumb_kintsugi.png'
+                       image='kintsugi.png'
                        title= 'kintsugiPhone'
                        link= 'kintsugi'/>
                      <Thumbnail
-                       image='thumb_caution_kite.jpg'
+                       image='caution_kite.jpg'
                        title='throwing caution to the wind'
                        link='caution'/>
                   </div>
@@ -50,9 +50,6 @@ class SinglePage extends Component {
                  <Grid columns={3} centered>
                    <Grid.Column mobile={6} tablet={4} computer={4}>
                     <Image src='topobanana_portrait.png' size='medium' style={{padding:0}}></Image>
-                   </Grid.Column>
-                   <Grid.Column mobile={6} tablet={4} computer={5}>
-                     My work explores the meaning created when a concept is intepreted across disparate modalities in unexpected ways, be it verbal to visual, analog to digital, or historical to present day.
                    </Grid.Column>
                    <Grid.Column mobile={5} tablet={3} computer={3}>
                      <a href="https://www.instagram.com/topobanana/" target='_blank' rel="noopener noreferrer">

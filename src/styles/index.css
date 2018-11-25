@@ -2,7 +2,7 @@ body {
   padding: 0px;
   margin: 0;
   font-size:14px;
-  font-family: "Fauna One", Helvetica, Sans-Serif;
+  font-family: "Overpass Mono", Helvetica, Sans-Serif;
   height:100%;
 }
 a:link {
@@ -38,7 +38,7 @@ a:active {
   font-size:4vw;
   line-height:1.0;
   z-index:3;
-  font-family: 'Permanent Marker', serif;
+  font-family: 'Overpass Mono', serif;
   -webkit-transition: ;
   transition: ;
 }
@@ -58,6 +58,8 @@ a:active {
 .ui.fixed.menu{
   border: 0;
   box-shadow: 0px 0px;
+  font-family: "Overpass Mono", Helvetica, Sans-Serif;
+
 }
 
 .ui[class*="top attached"].menu {
@@ -71,8 +73,15 @@ a:active {
   margin:0;
 }
 
+.ui.grid>.column:not(.row) {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 .ui.header.markerHeader {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Overpass Mono', cursive;
   font-size:36px;
   margin-left:10px;
   padding-top:30px;
@@ -300,7 +309,7 @@ p.imageOverlay a{
 
 .ui.medium.image {
   width:400px;
-  margin:16px;
+  margin:32px 16px 0 16px;
 }
 
 p.thumbNoSubtitle {
@@ -436,7 +445,7 @@ button.image-gallery-right-nav:hover::before { color:#999 }
     padding: 0px;
     font-size:10vw;
     line-height:1.0;
-    font-family: 'Permanent Marker', serif;
+    font-family: 'Overpass Mono', serif;
     -webkit-transition: ;
     transition: ;
   }

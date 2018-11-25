@@ -12,7 +12,7 @@ class Footer extends Component {
             text>
               <Menu.Item>
                 <div className='footer'>
-                built with <a href="https://reactjs.org/">React</a> and <a href="https://semantic-ui.com/">Semantic UI</a> &copy; skeske 2017
+                built with <a href="https://reactjs.org/">React</a> and <a href="https://semantic-ui.com/">Semantic UI</a> &copy; skeske 2018
                 </div>
               </Menu.Item>
           </Menu>

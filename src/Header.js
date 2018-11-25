@@ -11,13 +11,9 @@ class Header extends Component {
           fixed='top'
           borderless>
           <Menu.Item>
-              <NavLink to="/#top">artworks by Stephanie Keske</NavLink>
+              <NavLink to="/#top"><i>// artworks by Stephanie Keske</i></NavLink>
           </Menu.Item>
           <Menu.Menu position='right'>
-            <Menu.Item position='right'>
-    			      <NavLink to="/#contact">About</NavLink>
-    			      &nbsp;&nbsp;&nbsp;
-            </Menu.Item>
           </Menu.Menu>
         </Menu>
       )

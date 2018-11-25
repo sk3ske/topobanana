@@ -3,16 +3,7 @@ import { Route } from "react-router-dom";
 import { Icon, Image, Container, Divider, Grid, Menu, Segment } from "semantic-ui-react";
 import Thumbnail from '../Thumbnail.js'
 
-const portraits = ['skeske-portrait.png',
-                   'skeske-skier.png',
-                   'skeske-rocket.png',
-                   'skeske-coder.png',
-                   'skeske-mud.jpg',
-                   'skeske-captain.png']
 
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
 
 class SinglePage extends Component {
   render() {
@@ -55,17 +46,15 @@ class SinglePage extends Component {
 
              <Container fluid className='contactContainer'>
                <br />
-               <Container className='footerText'>
-                 <Grid columns={3} padded centered>
-                   <Grid.Column mobile={4} tablet={3} computer={3}>
-                     <Image src={ portraits[getRandomInt(0,5)] } circular />
+
+                 <Grid columns={3} centered>
+                   <Grid.Column mobile={6} tablet={4} computer={4}>
+                    <Image src='topobanana_portrait.png' size='medium' style={{padding:0}}></Image>
                    </Grid.Column>
                    <Grid.Column mobile={6} tablet={4} computer={5}>
-                     Here are things I made that aren't pixels or code. They often
-                     recontextualize our digital lives. I like to make things that
-                     make me laugh. Sometimes other people laugh too.
+                     My work explores the meaning created when a concept is intepreted across disparate modalities in unexpected ways, be it verbal to visual, analog to digital, or historical to present day.
                    </Grid.Column>
-                   <Grid.Column mobile={5} tablet={3} computer={2}>
+                   <Grid.Column mobile={5} tablet={3} computer={3}>
                      <a href="https://www.instagram.com/topobanana/" target='_blank' rel="noopener noreferrer">
                          <Icon name="instagram" size="small"/>
                       &nbsp;instagram
@@ -78,14 +67,7 @@ class SinglePage extends Component {
                      <br />
                    </Grid.Column>
                  </Grid>
-               </Container>
-               <div className='spacer' />
-               <div className='spacer' />
-               <div className='bottomSpacer' />
-               <div className='footer'>
-                 built with <a href="https://reactjs.org/">React</a> and <a href="https://semantic-ui.com/">Semantic UI</a> &nbsp;&nbsp;&nbsp; &copy; skeske 2018
-               </div>
-               <div className='bottomSpacer' />
+
                <div id='contact' />
              </Container>
            </div>

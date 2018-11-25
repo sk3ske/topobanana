@@ -17,7 +17,6 @@ class Header extends Component {
             <Menu.Item position='right'>
     			      <NavLink to="/#contact">About</NavLink>
     			      &nbsp;&nbsp;&nbsp;
-    			      <a href= "http://www.instagram.com/topobanana">'gram</a>
             </Menu.Item>
           </Menu.Menu>
         </Menu>

@@ -55,6 +55,11 @@ a:active {
   margin-right:0%;
 }
 
+.ui.fixed.menu{
+  border: 0;
+  box-shadow: 0px 0px;
+}
+
 .ui[class*="top attached"].menu {
   border-radius:0;
 }
@@ -278,6 +283,7 @@ p.imageOverlay {
 p.imageOverlay a{
   color:white;
 }
+
 
 .laikaLogo {
   width: 40px;

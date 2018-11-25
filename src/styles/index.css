@@ -27,8 +27,9 @@ a:active {
 }
 
 .spa_background {
-  	background-size: 25px 25px;
-    background-image: radial-gradient(circle, #000000 1px,  rgba(0,0,0,0) 1px);
+
+    background-image: url("../topo_bg.jpg");
+    background-repeat: repeat;
 }
 
 .splashTitle {
@@ -77,8 +78,6 @@ a:active {
   margin: 0;
   padding: 0;
 }
-
-
 
 .ui.header.markerHeader {
   font-family: 'Overpass Mono', cursive;

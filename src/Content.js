@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from "react-router-dom";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Header from "./Header";
 
 import SinglePage from "./pages/SinglePage";
@@ -17,6 +17,8 @@ class Content extends Component {
           <div>
             <Header />
             <div ref='content'>
+            <BrowserRouter>
+            <Switch>
               <Route
                 path= '/'
                 exact= {true}
@@ -47,6 +49,8 @@ class Content extends Component {
                 exact= {false}
                 component= { Caution }
               />
+              n</Switch>
+              </BrowserRouter>
             </div>
           </div>
     );

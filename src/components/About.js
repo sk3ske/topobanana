@@ -34,7 +34,7 @@ function SocialLink({ icon: Icon, label, ...props }) {
 export function About() {
   return (
     <section>
-      <Container className="relative z-10 mt-6 h-screen max-w-4xl flex-col overflow-hidden lg:mt-20 lg:h-[calc(100vh-292px)] lg:flex-row lg:items-end lg:overflow-visible">
+      <Container className="relative z-10 mt-6 max-w-4xl flex-col overflow-hidden lg:mt-20 lg:h-[calc(100vh-292px)] lg:flex-row lg:items-end lg:overflow-visible">
         <div className="mx-auto bg-white">
           {/* <h4 className="mb-0 font-display text-4xl font-semibold text-slate-900 lg:text-5xl">
             about the artist
@@ -55,7 +55,7 @@ export function About() {
         </div>
 
         <div className="relative col-span-1 mb-0 flex w-full items-end lg:absolute lg:bottom-0 lg:col-span-2 lg:-mb-32">
-          <div className="mb-0 flex flex-row gap-0 lg:mx-auto">
+          <div className="mx-auto mb-0 flex flex-row gap-0 ">
             <div className="mx-auto flex flex-col items-end gap-3 lg:ml-12 lg:mt-8">
               {socialLinks.map((socialLink) => (
                 <SocialLink

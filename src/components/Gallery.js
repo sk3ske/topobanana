@@ -37,7 +37,7 @@ const Gallery = ({ works }) => {
   }
 
   return (
-    <div className="col-span-4">
+    <div className="lg:col-span-4">
       <div className=" grid grid-cols-1 gap-10 bg-white p-8 lg:grid-cols-2 xl:grid-cols-3">
         {works.map((work, index) => (
           <div

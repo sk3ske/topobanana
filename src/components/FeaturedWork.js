@@ -125,9 +125,9 @@ export function FeaturedWork() {
   }
 
   return (
-    <section className="pt-10 sm:pb-24 md:pt-16 lg:pt-8" id="work">
+    <section className="pt-0 sm:pb-24 md:pt-16 lg:pt-8" id="work">
       <Container>
-        <div className="relative mx-auto mt-0 grid max-w-xl grid-cols-5 gap-0 lg:mx-0 lg:max-w-none">
+        <div className="relative mx-auto mt-0 grid max-w-xl gap-0 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <Sidebar
             categories={categories}
             selectedCategory={selectedCategory}

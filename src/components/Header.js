@@ -26,9 +26,9 @@ export function Header() {
   const pathname = usePathname()
 
   return (
-    <header className="z-10 h-24 bg-white">
+    <header className="z-10 h-20 bg-white lg:h-24">
       <Container className="grid h-full w-full ">
-        <nav className="relative z-50 flex w-full items-center justify-between">
+        <nav className="relative z-50 flex w-full items-center justify-between text-xs lg:text-sm">
           <div className="flex shrink-0 items-center italic">
             <Link href="/" aria-label="Home">
               → artworks by Stephanie Keske
@@ -43,7 +43,7 @@ export function Header() {
                   target={link.target || ''}
                   rel={link.rel || ''}
                   className={clsx(
-                    'relative duration-200 after:absolute after:-bottom-2.5 after:left-1/2 after:h-0.5 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-slate-900 after:opacity-0  after:content-[""]  hover:bg-highlighter hover:bg-highlighter',
+                    'relative hover:italic',
                     pathname == link.href
                       ? 'font-semibold text-slate-900 after:opacity-100'
                       : 'font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25'

@@ -10,7 +10,7 @@ const socialLinks = [
   {
     label: 'Instagram',
     icon: InstagramIcon,
-    href: 'https://instagram.com/skedawdle',
+    href: 'https://instagram.com/topobanana',
   },
   {
     label: 'Email',

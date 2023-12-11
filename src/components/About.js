@@ -49,8 +49,8 @@ export function About() {
               I make things that make me laugh. Sometimes they make other people
               laugh too.
             </p>
-            <h2>Selected exhibitions</h2>
-            <p className="font-display leading-8">6x6 Show</p>
+            {/* <h2>Selected exhibitions</h2>
+            <p className="font-display leading-8">6x6 Show</p> */}
           </div>
         </div>
 

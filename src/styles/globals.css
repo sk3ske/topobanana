@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@import './prism.css';
+@tailwind utilities;
+
+body {
+  background-size: 1.75em 1.75em;
+  background-image: radial-gradient(circle, #333 1px, rgba(80, 80, 80, 0) 1px);
+  background-attachment: fixed;
+}

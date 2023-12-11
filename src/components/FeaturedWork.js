@@ -83,7 +83,7 @@ const works = [
   {
     image: burritoes,
     title: 'Burritoes',
-    date: '2020',
+    date: '2018',
     blurb: 'Toes, aluminum foil',
     tag: 'photographs',
   },

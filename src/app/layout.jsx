@@ -30,8 +30,8 @@ const overpassMono = Overpass_Mono({
 
 export const metadata = {
   title: {
-    template: '%s - skeske',
-    default: 'Stephanie Keske makes sense and nonsense.',
+    template: 'topobanana',
+    default: 'Artworks by Stephanie Keske',
   },
 }
 

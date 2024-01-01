@@ -6,9 +6,11 @@ import { Container } from '@/components/Container'
 import Sidebar from '@/components/Sidebar'
 import Gallery from '@/components/Gallery'
 
-import properGander from '@/images/art/proper-gander.jpeg'
-import aPolloMission from '@/images/art/a-pollo-mission.jpeg'
-import chefalopod from '@/images/art/chefalopod.jpeg'
+import llamabeans from '@/images/art/llamabeans.png'
+import crustachean from '@/images/art/crustachean.png'
+import properGander from '@/images/art/propergander.png'
+import aPolloMission from '@/images/art/apollomission.png'
+import chefalopod from '@/images/art/chefalopod.png'
 
 import burritoes from '@/images/art/burritoes.png'
 import departingSole from '@/images/art/departing-sole.jpeg'
@@ -24,6 +26,20 @@ import cautionKite from '@/images/art/caution_kite.jpg'
 
 const categories = ['all', 'paintings', 'photographs', 'art objects']
 const works = [
+  {
+    image: llamabeans,
+    title: 'Llama Beans',
+    date: '2023',
+    blurb: 'Acrylic on 6x6" canvas',
+    tag: 'paintings',
+  },
+  {
+    image: crustachean,
+    title: 'Crustachean',
+    date: '2023',
+    blurb: 'Acrylic on 6x6" canvas',
+    tag: 'paintings',
+  },
   {
     image: chefalopod,
     title: 'Chefalopod',
